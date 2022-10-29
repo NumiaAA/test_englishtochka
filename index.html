@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body class="main__body">
+  <!-- Header -->
+  <header class="wallet">
+
+  <section class="coins">
+    <div class="container">
+
+      <!-- Баланс -->
+      <div class="balance">
+
+        <h1 class="balance__text">Ваш баланс:</h1>
+        <div class="balance-flex">
+          <p class="balance__coin"></p>
+          <p class="balance__number">34</p>
+          <p class="balance__etherium">ET</p>
+        </div>
+
+      </div>
+
+      <!-- Скидки -->
+      <div class="price">
+
+        <div class="price__body manual">
+          <div class="manual__text">
+            <h2 class="manual__title">Варианты обмена на скидку</h2>
+            <a class="modal__btn" href="#">Инструкция</a>
+          </div>
+        </div>
+
+        <div class="price__cards">
+          <!--Card 1-->
+          <div class="card__call">
+            <div class="card__top">
+              <span><img src="./img/coin-et.svg" alt="#"></span>
+              <span>50</span>
+              <span>ET</span>
+            </div>
+            <div class="card__mid">
+              <figure><img src="./img/call.svg" alt="#"></figure>
+              <span>x2</span>
+              <figcaption>на звонки ST (x2)</figcaption>
+            </div>
+            <div class="card__footer">
+              <span class="sale">50%</span>
+              <button class="card__btn-active">Уже использовано</button>
+            </div>
+          </div>
+
+          <!--Card 2-->
+
+          <div class="card__book">
+            <div class="card__top">
+              <span><img src="./img/coin-et.svg" alt="#"></span>
+              <span>70</span>
+              <span>ET</span>
+            </div>
+            <div class="card__mid">
+              <figure><img src="./img/open-book.svg" alt="#"></figure>
+              <figcaption>на спецкурс</figcaption>
+            </div>
+            <div class="card__footer">
+              <span class="sale">30%</span>
+              <button class="card__btn">Использовать</button>
+            </div>
+          </div>
+
+          <!--Card 3 and 4 -->
+
+          <div class="card__books">
+            <div class="card__top">
+              <span><img src="./img/coin-et.svg" alt="#"></span>
+              <span>100</span>
+              <span>ET</span>
+            </div>
+            <div class="card__mid">
+              <figure><img src="./img/books.svg" alt="#"></figure>
+              <figcaption>на курс</figcaption>
+            </div>
+            <div class="card__footer">
+              <span class="sale">50%</span>
+              <button class="card__btn">Использовать</button>
+            </div>
+          </div>
+
+          <div class="card__books">
+            <div class="card__top">
+              <span><img src="./img/coin-et.svg" alt="#"></span>
+              <span>139</span>
+              <span>ET</span>
+            </div>
+            <div class="card__mid">
+              <figure><img src="./img/books.svg" alt="#"></figure>
+              <figcaption>на курс</figcaption>
+            </div>
+            <div class="card__footer">
+              <span class="sale">65%</span>
+              <button class="card__btn">Использовать</button>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <div class="block-form">
+    <div class="container">
+      <form action="form">
+        <div class="login">
+          <label class="login__label" for="uname">Username:</label>
+          <input class="login__input" type="text" placeholder="Enter Username" name="username" required>
+          <button class="login__submit" type="button">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</header>
+  <!-- Modal -->
+  <!-- Modal  -->
+
+<div class="modal__wrapper">
+  <div class="modal">
+    <div class="modal__close"> <img src="./img/cancel.svg" alt="cancel" width="10px" height="10px"></div>
+    <div class="modal__title"><span>Инструкция</span></div>
+    <div class="modal__body">
+      <p>После публикации сделайте скрин, что вы его написали и отправьте своему куратору, чтобы мы добавили вам
+        спецкурс в личный кабинет.</p>
+      <p>После публикации сделайте скрин, что вы его написали и отправьте своему куратору, чтобы мы добавили вам
+        спецкурс в личный кабинет.</p>
+      <p>После публикации сделайте скрин, что вы его написали и отправьте своему куратору, чтобы мы добавили вам
+        спецкурс в личный кабинет.</p>
+      <p>После публикации сделайте скрин, что вы его написали и отправьте своему куратору, чтобы мы добавили вам
+        спецкурс в личный кабинет.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+
+<script src="./js/scripts.min.js"></script>
+
+</html>
